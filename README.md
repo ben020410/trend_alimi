@@ -43,3 +43,7 @@ API_KEY=<OpenAI API 키>
 ```
 4. `app.py`를 실행하고, 터미널에 출력되는 주소로 접속해 서비스를 실행합니다.
 5. 필요한 경우, `body.json`의 내용을 수정하여 사용합니다.
+<br>
+
+## 📹 시연 영상
+[시연 영상 시청하기](https://github.com/user-attachments/assets/abe297f4-fabf-4496-b8f9-7e4c724ec5f4)
