@@ -1,18 +1,48 @@
 {
-    "startDate": "2024-10-01",
+    "startDate": "2024-07-01",
     "endDate": "2024-11-24",
     "timeUnit": "week",
     "keywordGroups": [
         {
-            "groupName": "한글",
-            "keywords": ["한글", "korean"]
+            "groupName": "위키드",
+            "keywords": [
+                "위키드",
+                "Wicked"
+            ]
         },
         {
-            "groupName": "영어",
-            "keywords": ["영어", "english"]
+            "groupName": "슈퍼바이브",
+            "keywords": [
+                "슈퍼바이브",
+                "Super Vibe"
+            ]
+        },
+        {
+            "groupName": "로또1147",
+            "keywords": [
+                "로또1147",
+                "Lotto 1147"
+            ]
+        },
+        {
+            "groupName": "mama 2024",
+            "keywords": [
+                "mama 2024",
+                "Mama 2024"
+            ]
+        },
+        {
+            "groupName": "던파",
+            "keywords": [
+                "던파",
+                "Dungeon Fighter"
+            ]
         }
     ],
     "device": "pc",
-    "ages": ["1", "2"],
+    "ages": [
+        "1",
+        "2"
+    ],
     "gender": "f"
 }

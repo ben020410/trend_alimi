@@ -15,7 +15,7 @@ def load_request_body(json_file_path):
     with open(json_file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-account_file = "/trend_alimi/backend/account.txt"
+account_file = "/trend_alimi/.env"
 body_file = "/trend_alimi/backend/body.json"
 output_file = "/trend_alimi/backend/result.json"
 
