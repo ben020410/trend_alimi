@@ -4,24 +4,17 @@
     "timeUnit": "week",
     "keywordGroups": [
         {
-            "groupName": "맨 시티 대 토트넘",
+            "groupName": "문가비",
             "keywords": [
-                "맨 시티 대 토트넘",
-                "Man City vs Tottenham"
+                "문가비",
+                "Mungabi"
             ]
         },
         {
-            "groupName": "위키드",
+            "groupName": "슈퍼바이브",
             "keywords": [
-                "위키드",
-                "Wicked"
-            ]
-        },
-        {
-            "groupName": "로또1147",
-            "keywords": [
-                "로또1147",
-                "Lotto 1147"
+                "슈퍼바이브",
+                "SuperVibe"
             ]
         },
         {
@@ -36,6 +29,13 @@
             "keywords": [
                 "좀비버스",
                 "Zombie Bus"
+            ]
+        },
+        {
+            "groupName": "사랑은 외나무다리에서",
+            "keywords": [
+                "사랑은 외나무다리에서",
+                "Love on a Narrow Bridge"
             ]
         }
     ],
