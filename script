@@ -1,5 +1,0 @@
-keyword.py > keyword.csv
-keyword_selection.py > body.json
-trend_score.py > trend_score.json
-tv_score.py > tv_score.json
-result.py > result.json
