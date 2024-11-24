@@ -18,10 +18,17 @@
             ]
         },
         {
-            "groupName": "무신사",
+            "groupName": "로또1147",
             "keywords": [
-                "무신사",
-                "Musinsa"
+                "로또1147",
+                "Lotto1147"
+            ]
+        },
+        {
+            "groupName": "사랑은 외나무다리에서",
+            "keywords": [
+                "사랑은 외나무다리에서",
+                "Love on the Narrow Bridge"
             ]
         },
         {
@@ -29,13 +36,6 @@
             "keywords": [
                 "좀비버스",
                 "Zombie Bus"
-            ]
-        },
-        {
-            "groupName": "사랑은 외나무다리에서",
-            "keywords": [
-                "사랑은 외나무다리에서",
-                "Love on a Narrow Bridge"
             ]
         }
     ],

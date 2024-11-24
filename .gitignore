@@ -1,3 +1,7 @@
 .env
 test.py
 /test
+keyword.csv
+trend_score.json
+tv_score.json
+result.json
