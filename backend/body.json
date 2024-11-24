@@ -1,0 +1,18 @@
+{
+    "startDate": "2024-10-01",
+    "endDate": "2024-11-24",
+    "timeUnit": "week",
+    "keywordGroups": [
+        {
+            "groupName": "한글",
+            "keywords": ["한글", "korean"]
+        },
+        {
+            "groupName": "영어",
+            "keywords": ["영어", "english"]
+        }
+    ],
+    "device": "pc",
+    "ages": ["1", "2"],
+    "gender": "f"
+}
