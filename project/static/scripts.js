@@ -1,4 +1,5 @@
 document.getElementById("start-button").addEventListener("click", () => {
+    const startButton = document.getElementById("start-button");
     const resultsDiv = document.getElementById("results");
 
     // "트렌드를 분석 중입니다..." 메시지 표시
@@ -27,9 +28,13 @@ document.getElementById("start-button").addEventListener("click", () => {
                     `;
                     resultsDiv.appendChild(itemDiv);
                 });
+
+                // "시작" 버튼 숨기기
+                startButton.style.display = "none";
             } else {
                 // 결과가 없을 때
                 resultsDiv.innerHTML = "<p>2주 이내 유행 아이템이 없습니다.</p>";
+                startButton.style.display = "none"; // 버튼 숨기기
             }
         })
         .catch(err => {

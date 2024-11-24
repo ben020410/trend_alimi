@@ -49,17 +49,16 @@ def run_script():
     filtered_data = []
     for item in data:
         period = item.get("period")
-        if period:  # period가 null이 아닌 경우
+        if period:
             try:
-                period_date = datetime.strptime(period, "%Y-%m-%d")  # period를 datetime으로 변환
-                if two_weeks_ago <= period_date <= today:  # datetime 객체 간 비교
+                period_date = datetime.strptime(period, "%Y-%m-%d")
+                if two_weeks_ago <= period_date <= today:
                     filtered_data.append({
                         "title": item["title"],
                         "max_tv_score": item["max_tv_score"],
-                        "period": period  # 추가: period 값을 포함
+                        "period": period
                     })
             except ValueError:
-                # 잘못된 날짜 형식 무시
                 continue
 
 
