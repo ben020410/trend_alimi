@@ -8,20 +8,20 @@
 
 ## 📌 소개
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f5514b90-ca37-47b5-9e3e-864d050ca561" width="400"/>
+  <img src="https://github.com/user-attachments/assets/f5514b90-ca37-47b5-9e3e-864d050ca561" width="600"/>
 </p>
 
 본 프로젝트는 **Text Mining 활용 데이터 분석 및 신사업 아이디어 도출**의 일환으로, 실시간 검색량을 기반으로 키워드의 유행 정도를 파악하는 서비스입니다.
 하단은 2024-11-24을 기준으로 생성된 결과 화면입니다.
 <br>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/85fb7085-a323-4432-ba22-32794573c325" width="400"/>
+  <img src="https://github.com/user-attachments/assets/85fb7085-a323-4432-ba22-32794573c325" width="600"/>
 </p>
 <br>
 
 ## 💻 서비스 로직
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/53267818-4b88-4e64-b30a-23b110d215f5" width="700"/>
+  <img src="https://github.com/user-attachments/assets/53267818-4b88-4e64-b30a-23b110d215f5" width="800"/>
 </p>
 
 사용자의 POST 요청이 Flask 서버로 전달되면 핵심 로직인 **Python 스크립트**가 실행됩니다. <br>
