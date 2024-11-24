@@ -16,8 +16,8 @@ def load_request_body(json_file_path):
         return json.load(file)
 
 account_file = "/trend_alimi/.env"
-body_file = "/trend_alimi/backend/body.json"
-output_file = "/trend_alimi/backend/result.json"
+body_file = "/trend_alimi/project/crawler/body.json"
+output_file = "/trend_alimi/project/crawler/trend_score.json"
 
 # 계정 정보와 요청 데이터 불러오기
 account_info = load_account_info(account_file)

@@ -45,8 +45,8 @@ def add_keywords_to_body_json(body_data, keywords):
         })
 
 # 파일 경로 설정
-keyword_file_path = "/trend_alimi/backend/keyword.csv"
-body_json_path = "/trend_alimi/backend/body.json"
+keyword_file_path = "/trend_alimi/project/crawler/keyword.csv"
+body_json_path = "/trend_alimi/project/crawler/body.json"
 
 # 키워드 목록 로드
 keywords = load_keywords(keyword_file_path)

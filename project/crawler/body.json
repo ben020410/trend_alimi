@@ -4,17 +4,17 @@
     "timeUnit": "week",
     "keywordGroups": [
         {
+            "groupName": "맨 시티 대 토트넘",
+            "keywords": [
+                "맨 시티 대 토트넘",
+                "Man City vs Tottenham"
+            ]
+        },
+        {
             "groupName": "위키드",
             "keywords": [
                 "위키드",
                 "Wicked"
-            ]
-        },
-        {
-            "groupName": "슈퍼바이브",
-            "keywords": [
-                "슈퍼바이브",
-                "Super Vibe"
             ]
         },
         {
@@ -25,17 +25,17 @@
             ]
         },
         {
-            "groupName": "mama 2024",
+            "groupName": "무신사",
             "keywords": [
-                "mama 2024",
-                "Mama 2024"
+                "무신사",
+                "Musinsa"
             ]
         },
         {
-            "groupName": "던파",
+            "groupName": "좀비버스",
             "keywords": [
-                "던파",
-                "Dungeon Fighter"
+                "좀비버스",
+                "Zombie Bus"
             ]
         }
     ],
@@ -43,6 +43,5 @@
     "ages": [
         "1",
         "2"
-    ],
-    "gender": "f"
+    ]
 }

@@ -47,7 +47,7 @@ trends_df = pd.DataFrame(trends)
 print(trends_df)
 
 # DataFrame을 CSV 파일로 저장
-output_path = "/trend_alimi/backend/keyword.csv"  # 저장할 파일 경로와 이름
+output_path = "/trend_alimi/project/crawler/keyword.csv"  # 저장할 파일 경로와 이름
 trends_df.to_csv(output_path, index=False, encoding='utf-8-sig')  # 인덱스 제외, UTF-8로 저장
 print(f"Data saved to {output_path}")
 

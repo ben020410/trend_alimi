@@ -30,7 +30,7 @@ def calculate_tv_scores(data, alpha=0.5, delta=7):
             if S_t_delta is not None:
                 growth_rate = (S_t - S_t_minus_1) / (S_t_minus_1 + 1)
                 exp_decay = math.exp(-alpha * S_t_delta)
-                tv_score = growth_rate * exp_decay
+                tv_score = growth_rate * exp_decay * 100
             else:
                 tv_score = 0  # delta보다 작은 경우
             
@@ -52,8 +52,8 @@ def save_results_to_json(results, output_file):
         json.dump(results, json_file, ensure_ascii=False, indent=4)
 
 # 파일 경로 설정
-input_file = '/trend_alimi/backend/result.json'  # 입력 JSON 파일 경로
-output_file = '/trend_alimi/backend/tv_score.json'     # 출력 JSON 파일 경로
+input_file = '/trend_alimi/project/crawler/trend_score.json'  # 입력 JSON 파일 경로
+output_file = '/trend_alimi/project/crawler/tv_score.json'     # 출력 JSON 파일 경로
 
 # JSON 파일 로드
 data = load_json(input_file)
